@@ -1,0 +1,39 @@
+<style>
+/* Styles go here. */
+header li {
+  list-style: none;
+}
+a:link, a:visited {
+  text-decoration: none;
+  font-family: Verdana;
+  font-size:x-large;
+  background-color: pink;
+  border: 3px solid red;
+  border-style:ridge;
+  color: black;
+  display: block;
+  width: 300px;
+  text-align: center;
+  margin-bottom: 5px;
+}
+a:hover, a:active {
+  background-color: red;
+  color: purple;
+}
+header li:nth-child(3n+n) {
+  font-size: 30px;
+}
+section div:nth-child(odd) {
+  background-color: pink;
+  font-weight: bold;
+  font-family: Verdana;
+  font-size:large;
+  border: 2px solid red;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+section div:nth-child(even):hover {
+  background-color: green;
+  cursor: pointer;
+}
+</style>
